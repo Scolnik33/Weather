@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-color: darkslateblue;
+}
+.my_container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form_weather_close {
+    margin-top: 150px;
+    height: 80px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: bisque;
+
+    overflow: hidden;
+
+    transition: all 0.1s linear;
+}
+.form_weather_open {
+    margin-top: 150px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: bisque;
+
+    overflow: visible;
+
+    transition: all 0.1s linear;
+
+    position: relative;
+}
+
+.city {
+    font-size: 24px;
+    margin-top: 30px;
+}
+.conditions {
+    font-size: 18px;
+}
+.feelslike, .snow, .pressure, .temp, .windspeed {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+}
+.number {
+    font-size: 15px;
+}
+.icon {
+    text-align: right;
+}
+.icon_image {
+    width: 100px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.col_info {
+    margin-top: 140px;
+
+    text-align: center;
+    position: relative;
+}
+.mini_image {
+    width: 100px;
+    height: auto;
+
+    position: absolute;
+    top: -500%;
+    left: 50%;
+    z-index: 10;
+
+    transform: translate3d(-50px, 0, 0);
+}
+
+.subinfo {
+    margin-bottom: 25px;
+}
+
+#loader {
+    width: 120px;
+    height: 120px;
+
+    border-width: 0.5rem;
+
+    position: absolute;
+    top: 42%;
+    left: 43%;
+    z-index: 100;
+}

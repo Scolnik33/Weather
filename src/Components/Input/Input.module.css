@@ -1,0 +1,43 @@
+.input_space {
+    display: flex;
+    justify-content: left;
+}
+.right_input {
+  padding: 7px 150px 7px 15px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid black;
+  margin-right: 15px;
+}
+.not_right_input {
+  padding: 7px 150px 7px 15px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid red;
+  margin-right: 15px;
+}
+.buttonInvisible {
+  padding: 1px 15px;
+  background-color: rgb(255, 224, 252);
+  outline: none;
+  border: 1px solid black;
+  border-radius: 3px;
+
+  transition: 0.2s linear all;
+  opacity: 0;
+}
+.buttonVisible {
+  padding: 1px 15px;
+  background-color: rgb(255, 224, 252);
+  outline: none;
+  border: 1px solid black;
+  border-radius: 3px;
+
+  transition: 0.2s linear all;
+  opacity: 1;
+}
+.warning {
+  font-size: 14px;
+  color: red;
+  margin: 10px 0 0 -20px;
+}
